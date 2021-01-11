@@ -1,27 +1,29 @@
 # Firechat
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+Éste proyecto corresponde a la sexta app que desarrollé a través del curso de `Angular: de cero a experto` de Fernando Herrera en Udemy. Es un chat que usa el servicio **Cloud Firestore** de **Firebase** y permite loguearse al mismo con una cuenta de _Google_ o _Facebook_.
 
-## Development server
+Se encuentra hecho con **Bootstrap** (versión 5.0.0-beta1) y **Angular CLI** (versión 11.0.4.). Para su instalación:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
+npm install -g @angular/cli
+```
 
-## Code scaffolding
+## Iniciar la aplicación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Primero se deben instalar las dependencias del proyecto con:
 
-## Build
+```bash
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Luego, escribir en la consola:
 
-## Running unit tests
+```bash
+ng serve -o
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Abrirá la página en la siguiente URL: `http://localhost:4200/`.
 
-## Running end-to-end tests
+### Nota
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+> La página se actualizará automáticamente al realizar cambios y guardar.
